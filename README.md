@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-takehomeapi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://takehomeapi.com/
+TakeHome API provides UK take‑home pay calculations, including income tax (England, Wales, Northern Ireland and Scotland), National Insurance, student loans, pensions and the High Income Child Benefit Charge. It sources rates from GOV.UK and the Scottish Government for tax years 2025‑26 and 2026‑27, returning detailed breakdowns and assumptions. The service is offered as a REST API, an MCP server for AI agents, and a pay‑per‑call x402 model. It is operated by Hosting Easy Ltd, a UK‑registered company.
+
+**Areas:** Company · UK · Finance · Tax · Payroll
+
+## takehomeapi-com on APIs.io
+
+Everything profiled for takehomeapi-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/takehomeapi-com/](https://apis.io/providers/takehomeapi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [takehomeapi-com Compare API](https://apis.io/apis/takehomeapi-com/takehomeapi-com-compare-api/) — The Compare API from takehomeapi-com — 1 operation(s) for compare.
+- [takehomeapi-com Rates API](https://apis.io/apis/takehomeapi-com/takehomeapi-com-rates-api/) — The Rates API from takehomeapi-com — 1 operation(s) for rates.
+- [takehomeapi-com Take Home API](https://apis.io/apis/takehomeapi-com/takehomeapi-com-take-home-api/) — The Take Home API from takehomeapi-com — 1 operation(s) for take home.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Takehomeapi Com Agentic Access](https://apis.io/agentic-access/takehomeapi-com/takehomeapi-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [takehomeapi-com API Rules](https://apis.io/rules/takehomeapi-com/takehomeapi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Takehomeapi Com Authentication](https://apis.io/security/takehomeapi-com/takehomeapi-com-authentication/)
+- [Takehomeapi Com Domain Security](https://apis.io/security/takehomeapi-com/takehomeapi-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Takehomeapi Com Scopes](https://apis.io/scopes/takehomeapi-com/takehomeapi-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Takehomeapi Com Plans Pricing](https://apis.io/plans/takehomeapi-com/takehomeapi-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Takehomeapi Com Rate Limits](https://apis.io/rate-limits/takehomeapi-com/takehomeapi-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://takehomeapi.com/)
+- [Getting started](https://takehomeapi.com/pricing)
+- [API reference](https://api.takehomeapi.com/openapi.json)
+- [Pricing](https://takehomeapi.com/pricing)
+- [Terms of service](https://takehomeapi.com/terms)
+- [Privacy policy](https://takehomeapi.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.6** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.7 |
+| Contract governance | 65.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 60.0 |
+
+**Agent readiness 38.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 34.3** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/takehomeapi-com/](https://apis.io/providers/takehomeapi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for takehomeapi-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/takehomeapi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
